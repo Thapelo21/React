@@ -1,0 +1,29 @@
+{
+  "name": "wings-cafe-backend-custom",
+  "version": "1.1.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "inventory",
+    "cafe"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "Backend server for Wings Cafe Inventory System",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^4.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.3",
+    "react-chartjs-2": "^5.2.0"
+  }
+}

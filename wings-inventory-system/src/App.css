@@ -1,0 +1,177 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to right, #f0f0f0, #d9d9d9); /* Light gray gradient */
+}
+
+/* Container */
+.dashboard-container {
+  max-width: 1000px;
+  margin: auto;
+  background: linear-gradient(135deg, #9e9e9e, #bdbdbd); /* Medium gray gradient */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  color: #333; /* Dark gray for text */
+}
+
+/* Headings */
+h1, h2 {
+  color: #333;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  color: #757575; /* Medium gray */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Forms */
+form {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields and buttons */
+input, button {
+  margin: 10px 0;
+  padding: 12px;
+  width: calc(100% - 24px);
+  border: 2px solid #757575; /* Medium gray border */
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input {
+  background-color: #f5f5f5; /* Very light gray */
+  color: #333;
+}
+
+button {
+  background: linear-gradient(to right, #757575, #9e9e9e); /* Medium gray gradient */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #9e9e9e, #757575); /* Reverse gradient on hover */
+  transform: scale(1.05);
+}
+
+/* Product and user items */
+.product-item, .user-item {
+  padding: 15px;
+  border: 2px solid #bdbdbd; /* Light gray border */
+  background-color: #f5f5f5; /* Light gray */
+  color: #333;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard */
+.dashboard-container {
+  background: linear-gradient(to right, #616161, #757575); /* Dark gray gradient */
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Stock overview */
+#stockOverview h3 {
+  color: #9e9e9e; /* Light gray */
+  margin-bottom: 10px;
+}
+
+#stockOverview div {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Logout button */
+#logoutButton {
+  background: linear-gradient(to right, #424242, #616161); /* Dark gray gradient */
+}
+
+#logoutButton:hover {
+  background: linear-gradient(to right, #616161, #424242); /* Reverse gradient on hover */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  color: #333;
+  background-color: #f5f5f5; /* Light gray for cells */
+}
+
+thead {
+  background: #757575; /* Medium gray */
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e0e0e0; /* Light gray */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f5f5f5; /* Very light gray */
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #757575; /* Medium gray */
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Navigation Links */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background 0.3s ease, color 0.3s ease;
+  font-weight: bold;
+}
+
+/* Navigation Links Hover Effects */
+nav a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #bdbdbd; /* Light gray */
+}
+
+/* Active Link */
+nav a.active {
+  background: #616161; /* Darker gray */
+  color: #fff;
+}
+
